@@ -1,90 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <title>Título da Página</title>
-    <style>
+    <meta charset="UTF-0"/>
+    <link rel="stylesheet" href="stylePage2.css"/>
+    <!-- <style>
       body {
         background-color: #333;
         color: white;
         text-align: center;
       }
-    </style>
+    </style> -->
 </head>
-<body>
+<body class="body">
     <!-- Exemplo de cabeçalho/header-->
-    <header>
-        <h1>Meu Blog</h1>
+    <header class="header">
+        <h1 class="header-title">Meu Blog</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#contact">Contato</a></li>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">Sobre</a></li>
+            <li><a href="#contact" class="nav-link">Contato</a></li>
         </ul>
     </nav>
     
-    <h1>Este é um título principal</h1>
-    <h2>Este é um subtítulo</h2>
-    <p>Este é um parágrafo de exemplo.</p>
+    <h1 class="main-title">Este é um título principal</h1>
+    <h2 class="subtitle">Este é um subtítulo</h2>
+    <p class="paragraph">Este é um parágrafo de exemplo.</p>
     <!-- Lista não ordenada -->
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
+    <ul class="unordered-list">
+        <li class="list-item">Item 1</li>
+        <li class="list-item">Item 2</li>
     </ul>
     <!-- Lista Ordenada -->
-    <ol>
-        <li>Primeiro</li>
-        <li>Segundo</li>
+    <ol class="ordered-list">
+        <li class="list-item">Primeiro</li>
+        <li class="list-item">Segundo</li>
     </ol>
     <!-- Links -->
-    <a href="https://example.com">Visite o Example</a>
+    <a href="https://example.com" class="external-link">Visite o Example</a>
     <!-- imagens -->
-    <img src="imagem.jpg" alt="Descrição da imagem">
+    <img src="imagem.jpg" class="image" alt="Descrição da imagem">
 
     <!-- Exemplo de formulário-->
-    <form action="/enviar" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome"><br><br>
+    <form action="/enviar" method="post" class="form">
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" id="nome" name="nome" class="form-input"><br><br>
     
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" id="email" name="email" class="form-input"><br><br>
     
         <button type="submit">Enviar</button>
     </form>
     <!-- Exemplo de Tabela -->
-    <table border="1">
-        <thead>
+    <table class="table">
+        <thead class="table-head">
             <tr>
-                <th>Produto</th>
-                <th>Preço</th>
+                <th class="table-header">Produto</th>
+                <th class="table-header">Preço</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="table-body">
             <tr>
-                <td>Café</td>
-                <td>R$5,00</td>
+                <td class="table-cell">Café</td>
+                <td class="table-cell">R$5,00</td>
             </tr>
             <tr>
-                <td>Chá</td>
-                <td>R$3,00</td>
+                <td class="table-cell">Chá</td>
+                <td class="table-cell">R$3,00</td>
             </tr>
         </tbody>
     </table>
     <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2024 Meu Blog</p>
+    <footer class="footer">
+        <p class="footer-text">&copy; 2024 Meu Blog</p>
     </footer>
 </body>
-</html>
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>CSS Externo</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <p>Este texto está estilizado com CSS externo.</p>
-  </body>
 </html>
 

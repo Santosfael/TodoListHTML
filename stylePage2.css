@@ -1,0 +1,164 @@
+/* Corpo */
+.body {
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #444;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  color: #ff6f61;
+}
+
+/* Navegação */
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.nav-link:hover {
+  background: #ff6f61;
+}
+
+/* Títulos e texto */
+.main-title, .subtitle {
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+}
+
+/* Listas */
+.unordered-list, .ordered-list {
+  margin: 20px auto;
+  padding: 0;
+  width: fit-content;
+  text-align: left;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
+
+/* Links */
+.external-link {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+.external-link:hover {
+  color: #ff6f61;
+}
+
+/* Imagens */
+.image {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Formulário */
+.form {
+  margin: 20px auto;
+  padding: 20px;
+  background: #444;
+  border-radius: 8px;
+  width: 300px;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 96%;
+  height: 45px;
+  margin-bottom: 10px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background: #222;
+  color: #fff;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-button:hover {
+  background: #d05850;
+}
+
+/* Tabela */
+.table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  background: #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-head {
+  background: #ff6f61;
+  color: #fff;
+}
+
+.table-header, .table-cell {
+  padding: 10px;
+  border: 1px solid #444;
+}
+
+.table-body tr:nth-child(even) {
+  background: #444;
+}
+
+.table-body tr:nth-child(odd) {
+  background: #555;
+}
+
+/* Rodapé */
+.footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #222;
+  color: #fff;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+}
